@@ -24,5 +24,5 @@ mount(function () {
 ?>
 
 <div>
-    <p>{{ $this->word_reverse }}</p>
+    <p>{{ implode($this->result) }}</p>
 </div>
