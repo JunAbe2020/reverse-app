@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Livewire\Volt\Volt;
+use livewire\Volt\Volt;
 
 Route::get('/', function () {
     return view('welcome');
