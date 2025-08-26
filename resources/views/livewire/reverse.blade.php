@@ -18,7 +18,7 @@ mount(function () {
             $this->result[] = $letter;
         }
     }
-    array_reverse($this->result);
+    $this->result = array_reverse($this->result);
 });
 
 ?>
