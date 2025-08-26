@@ -6,7 +6,6 @@ state([
     'word' => '',
     'letters' => [],
     'result' => [],
-    'reverse_result' => [],
 ]);
 
 mount(function () {
@@ -19,7 +18,7 @@ mount(function () {
             $this->result[] = $letter;
         }
     }
-    $this->reverse->result = strrev($this->result);
+    array_reverse($this->result);
 });
 
 ?>
